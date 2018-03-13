@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>XML生成树状菜单</title>
+<!--
+说明：
+一个练习JavaScript DOM编程的小东西，实现的功能很简单；
+我并不是专业的JavaScript程序员，是.net程序员；
+有兴趣的可以共同交流B/S软件开发的经验与心得；
+QQ：10522779
+ -->
+<script language="JavaScript" type="text/javascript" src="tree.js"></script>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="TreeMenu"></div>
+<script type="text/javascript" language="javascript" defer="defer">
+//将处理过的XML数据，插入到页面的相应位置
+var d=document.getElementById("TreeMenu");
+var xmlDoc = loadXMLDoc("menu.xml");
+console.log(xmlDoc);
+var rootNode=xmlDoc.documentElement;    //.nodeName;
+d.innerHTML = BuilderTree(rootNode);
+</script>
+</body>
+</html>
