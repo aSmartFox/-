@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+    <menu name="新闻">
+      <menu1 name="明星名人">
+        <menu2 name="华人明星" url="">
+          <menu3 name="大陆新秀" url="">
+            <menu4 name="周笔畅" url="http://post.baidu.com/f?kw=%D6%DC%B1%CA%B3%A9" target="_blank"/>
+            <menu4 name="周笔畅" url="http://post.baidu.com/f?kw=%D6%DC%B1%CA%B3%A9" target="_blank"/>
+            <menu4 name="周笔畅" url="http://post.baidu.com/f?kw=%D6%DC%B1%CA%B3%A9" target="_blank"/>
+          </menu3>
+          <menu3 name="香港" url="">
+            <menu4 name="成龙" url="http://post.baidu.com/f?kw=%B3%C9%C1%FA" target="_blank"/>
+          </menu3>
+        </menu2>
+        <menu2 name="日韩明星" url="Admin_Dep.aspx">
+          <menu3 name="金喜善" url="http://post.baidu.com/f?kw=%BD%F0%CF%B2%C9%C6" target="_blank"/>
+          <menu3 name="金喜善" url="http://post.baidu.com/f?kw=%BD%F0%CF%B2%C9%C6" target="_blank"/>
+        </menu2>
+        <menu2 name="欧美明星" url="#"/>   
+      </menu1>
+      <menu1 name="娱乐">
+        <menu2 name="快乐男声" url="#" target="_blank">
+          <menu3 name="陈楚生" url="http://post.baidu.com/f?kw=%B3%C2%B3%FE%C9%FA"  target="_blank"/>
+          <menu3 name="苏醒" url="http://post.baidu.com/f?kw=%CB%D5%D0%D1"/>
+        </menu2>
+      </menu1>
+      <menu1 name="体育">
+        <menu2 name="体育俱乐部" url="#"/>
+      </menu1>
+      <menu1 name="军事">
+        <menu2 name="战斗机" url="#"/>
+      </menu1>
+    </menu>

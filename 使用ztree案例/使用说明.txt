@@ -1,0 +1,13 @@
+2018-3-16
+js文件夹放了Ztree的js和一个自己写的js
+test.html 可以独立运行
+xml2json.js 是一个还没验证的js
+index.html也没有验证是否可以运行
+menu.xml result.xml 是需要的数据
+
+2018-3-20
+js文件夹放了Ztree的js和一个自己写的js
+test.html 可以独立运行
+xml2json.js 是一个还没验证的js
+index.html已经验证可以运行
+menu.xml result.xml 是需要的数据
